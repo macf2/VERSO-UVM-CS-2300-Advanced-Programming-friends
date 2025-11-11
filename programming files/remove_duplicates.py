@@ -1,3 +1,4 @@
+## Bugs introduced ES
 def remove_duplicates(arr):
     arr.sort()
     unique_arr = []
