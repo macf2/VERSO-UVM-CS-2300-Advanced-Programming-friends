@@ -3,6 +3,7 @@ import java.time.format.DateTimeFormatter;
 
 public class datetime_convert {
     public static void main(String[] args) {
+        //LH This is the required date format 
         String dateStr = "2022-03-17 10:45:30";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         LocalDateTime dateObj = LocalDateTime.parse(dateStr, formatter);
