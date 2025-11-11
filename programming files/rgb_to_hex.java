@@ -1,8 +1,8 @@
-public class rgb_to_hex {
+public class rgb_to_hex { //ZE
     public static void main(String[] args) {
-        int r = 255;
-        int g = 127;
-        int b = 0;
+        int r = 255; //red scale 0-255
+        int g = 127; //green scale 0-255
+        int b = 0; //blue scale 0-255
         String hexColor = rgbToHex(r, g, b);
         System.out.println("RGB color (" + r + ", " + g + ", " + b + ") = " + hexColor);
     }
