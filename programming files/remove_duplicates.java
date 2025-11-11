@@ -2,8 +2,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class remove_duplicates {
+// Documented by JS
 
+public class remove_duplicates {
+    
+    /*
+     * 
+     * arr: array where duplicates will be found
+     * removedElements: 
+     */
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
         List<Integer> uniqueArr = new ArrayList<>();
         for (int i = 0; i < arr.size(); i++) {
